@@ -3,8 +3,10 @@ from pprint import pprint
 from UI import Ui
 
 
+
 def translate(word):
     code = get_morse_code()
+
 
 
 def get_morse_code() -> dict:
@@ -15,13 +17,3 @@ def get_morse_code() -> dict:
 
 if __name__ == '__main__':
     window = Ui(translate_func=translate)
-
-
-    
-
-
-
-
-
-if __name__ == '__main__':
-    loop()
